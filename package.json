@@ -18,7 +18,10 @@
   "homepage": "https://github.com/Zamy97/Unsplash-Api#readme",
   "dependencies": {
     "express": "^4.16.4",
+    "node-fetch": "^2.3.0",
+    "universal-config": "^0.3.0",
     "unsplash-js": "^4.8.0",
-    "url-parse": "^1.4.3"
+    "url-parse": "^1.4.3",
+    "babel-register": "^6.26.0"
   }
 }
