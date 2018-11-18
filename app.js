@@ -7,7 +7,7 @@ const Unsplash = require('unsplash-js').default;
 const unsplash = new Unsplash({
     applicationId:"{1149da19516c6f3662ec619486f7837f4dcc3e7f28035b0e262d4798539ca5d}",
     secret: "{8dff27ce2b8ae5e9b28a352c1f758dbc66fd57e897b5704a65c4ee47ccddf29c}",
-    callbackUrl: "{https://urn:ietf:wg:oauth:2.0:oob}"
+    callbackUrl: "{http://unsplash-js.herokuapp.com}"
 });
 
 let authenticationUrl = unsplash.auth.getAuthenticationUrl([
@@ -217,36 +217,27 @@ function stats() {
 
 
 
-// // ES Modules syntax
-// import Unsplash from 'unsplash-js';
-//
-// // Require syntax
-// const Unsplash = require('unsplash-js').default;
-//
-// const unsplash = new Unsplash({
-//      applicationId:"{1149da19516c6f3662ec619486f7837f4dcc3e7f28035b0e262d4798539ca5d}",
-//     secret: "{8dff27ce2b8ae5e9b28a352c1f758dbc66fd57e897b5704a65c4ee47ccddf29c}",
-//     callbackUrl: "{https://urn:ietf:wg:oauth:2.0:oob}"
-// });
-//
-// unsplash.photos.getRandomPhoto({ query: "food" })
-//   .then(toJson)
-//   .then(json => {
-//       console.log(toJson);
-//     // Your code
-//   });
 
-// unsplash.photos.getRandomPhoto({ featured: true })
-//
-//   .then(toJson)
-//   .then(json => {
-//     console.log(json);
-//   });
-//
-// unsplash.users.profile("naoufal")
-//     .catch(err => {
-//       // Your flawless error handling code
-//     });
+// Everything below was what I tried at the beginning
+
+// ES Modules syntax
+import Unsplash from 'unsplash-js';
+
+// Require syntax
+const Unsplash = require('unsplash-js').default;
+
+const unsplash = new Unsplash({
+     applicationId:"{1149da19516c6f3662ec619486f7837f4dcc3e7f28035b0e262d4798539ca5d}",
+    secret: "{8dff27ce2b8ae5e9b28a352c1f758dbc66fd57e897b5704a65c4ee47ccddf29c}",
+    callbackUrl: "{http://unsplash-js.herokuapp.com}"
+});
+
+unsplash.photos.getRandomPhoto({ query: "food" })
+  .then(toJson)
+  .then(json => {
+      console.log(toJson);
+    // Your code
+  });
 
 
 // https://tyler.vc/random-unsplash-backgrounds
