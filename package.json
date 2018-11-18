@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Zamy97/Unsplash-Api#readme",
   "dependencies": {
     "express": "^4.16.4",
-    "unsplash-js": "^4.8.0"
+    "unsplash-js": "^4.8.0",
+    "url-parse": "^1.4.3"
   }
 }
