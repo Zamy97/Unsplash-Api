@@ -216,8 +216,6 @@ function stats() {
 }
 
 
-
-
 // Everything below was what I tried at the beginning
 
 // ES Modules syntax
