@@ -241,3 +241,10 @@ unsplash.photos.getRandomPhoto({ query: "food" })
 // https://tyler.vc/random-unsplash-backgrounds
 // https://www.youtube.com/watch?v=9HuNpF8FsXM
 // https://stackoverflow.com/questions/52693138/unsplash-api-question-on-json-to-display-in-html
+//https://github.com/unsplash/unsplash-js
+//https://github.com/unsplash/unsplash-js/tree/master/examples/node/config
+//https://github.com/unsplash/unsplash-source-js
+//https://unsplash.com/documentation#get-a-random-photo
+//https://stackoverflow.com/questions/52693138/unsplash-api-question-on-json-to-display-in-html
+//https://stackoverflow.com/questions/33704714/cant-require-default-export-value-in-babel-6-x/33705077#33705077
+//
