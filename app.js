@@ -23,6 +23,7 @@ function photos() {
       console.log(json);
     });
 }
+// https://github.com/unsplash/unsplash-js/issues/35
 // https://github.com/unsplash/unsplash-js/issues/81
 // https://tyler.vc/random-unsplash-backgrounds
 // https://www.youtube.com/watch?v=9HuNpF8FsXM
