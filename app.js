@@ -17,7 +17,7 @@ photos();
 function photos() {
   console.log("\nPhotos");
 
-  unsplash.photos.getRandomPhoto({ featured: true })
+  unsplash.photos.getRandomPhoto({ query: 'Burrito' })
     .then(toJson)
     .then(json => {
       console.log(json);
