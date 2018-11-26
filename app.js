@@ -23,7 +23,7 @@ function photos() {
       console.log(json);
     });
 }
-
+// https://github.com/unsplash/unsplash-js/issues/81
 // https://tyler.vc/random-unsplash-backgrounds
 // https://www.youtube.com/watch?v=9HuNpF8FsXM
 // https://stackoverflow.com/questions/52693138/unsplash-api-question-on-json-to-display-in-html
