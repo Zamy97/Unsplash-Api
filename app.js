@@ -26,8 +26,11 @@ function photos() {
   });
 
 }
-
-
+// https://stackoverflow.com/questions/37242754/how-do-i-change-the-background-image-every-x-seconds
+// https://codepen.io/theomjones/pen/wPWPJz
+// https://stackoverflow.com/questions/6808072/how-do-i-make-my-background-change-images-automatically-every-15-seconds-javasc
+// https://stackoverflow.com/questions/27027480/choosing-a-random-background-html-css
+// https://stackoverflow.com/questions/53144611/cannot-read-property-of-undefined-at-xmlhttprequest-xhr-onload-unsplash-api
 // https://stackoverflow.com/questions/27027480/choosing-a-random-background-html-css
 // https://github.com/unsplash/unsplash-js/issues/35
 // https://github.com/unsplash/unsplash-js/issues/81
