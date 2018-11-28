@@ -17,9 +17,11 @@ photos();
 function photos() {
   console.log("\nPhotos");
 
-  unsplash.photos.getRandomPhoto({ query: "Burrito" })
+  unsplash.photos.getRandomPhoto({ query: "Food"})
     .then(toJson)
     .then(json => {
+      console.log(json);
+      console.log(json.description);
       console.log(json.urls.full);
   });
 

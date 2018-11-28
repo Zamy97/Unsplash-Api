@@ -20,6 +20,7 @@
     "babel-register": "^6.26.0",
     "es6-promise": "^4.2.5",
     "express": "^4.16.4",
+    "handlebars": "^4.0.12",
     "isomorphic-fetch": "^2.2.1",
     "node-fetch": "^2.3.0",
     "universal-config": "^0.3.0",
