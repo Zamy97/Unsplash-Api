@@ -17,12 +17,16 @@ photos();
 function photos() {
   console.log("\nPhotos");
 
-  unsplash.photos.getRandomPhoto({ query: 'Burrito' })
+  unsplash.photos.getRandomPhoto({ query: "Burrito" })
     .then(toJson)
     .then(json => {
-      console.log(json);
-    });
+      console.log(json.urls.full);
+  });
+
 }
+
+
+// https://stackoverflow.com/questions/27027480/choosing-a-random-background-html-css
 // https://github.com/unsplash/unsplash-js/issues/35
 // https://github.com/unsplash/unsplash-js/issues/81
 // https://tyler.vc/random-unsplash-backgrounds
