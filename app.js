@@ -12,7 +12,9 @@ const unsplash = new Unsplash({
     callbackUrl: "http://unsplash-js.herokuapp.com"
 });
 
-photos();
+photos().then((json) => {
+    console.log(json.urls.full);
+});
 
 function photos() {
   console.log("\nPhotos");
@@ -20,12 +22,10 @@ function photos() {
   unsplash.photos.getRandomPhoto({ query: "Food"})
     .then(toJson)
     .then(json => {
-      console.log(json);
-      console.log(json.description);
+      // console.log(json);
+      // console.log(json.description);
       console.log(json.urls.full);
-  });
-
-}
+  }
 // https://stackoverflow.com/questions/37242754/how-do-i-change-the-background-image-every-x-seconds
 // https://codepen.io/theomjones/pen/wPWPJz
 // https://stackoverflow.com/questions/6808072/how-do-i-make-my-background-change-images-automatically-every-15-seconds-javasc
